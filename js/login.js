@@ -18,3 +18,14 @@ inputs.forEach(input => {
 	input.addEventListener("focus", addcl);
 	input.addEventListener("blur", remcl);
 });
+
+// Al presionar Enter en el campo user, pasar al campo pass
+const userInput = document.querySelector('input[name="user"]');
+const passInput = document.querySelector('input[name="pass"]');
+
+userInput.addEventListener("keydown", function(e) {
+	if (e.key === "Enter") {
+		e.preventDefault();
+		passInput.focus();
+	}
+});

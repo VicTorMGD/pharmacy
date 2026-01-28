@@ -196,7 +196,7 @@ if ($_SESSION['us_tipo'] == 1 || $_SESSION['us_tipo'] == 3) {
                                         <span><i class="fas fa-check m-1"></i> Datos editados correctamente</span>
                                     </div>
                                     <div class="alert alert-danger text-center" id="noeditados" style="display: none;">
-                                        <span><i class="fas fa-times m-1"></i> Edición deshabilitada </span>
+                                        <span><i class="fas fa-times m-1"></i> La edición está deshabilitada </span>
                                     </div>
 
                                     <form id="form-usuario" class="form-horizontal">
