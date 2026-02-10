@@ -50,6 +50,10 @@ session_destroy();
                 </div>
                 <a href="#">Created Warpiece</a>
                 <input type="submit" class="btn" value="iniciar sesion">
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/51967312323"><img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" />
+                <a />
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/51962702220"><img alt="Chat on WhatsApp" src="img/logo.png" />
+                <a />
             </form>
         </div>
     </div>
